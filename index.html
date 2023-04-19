@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky navbar</title>
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <header class="bg-transparent py-4 fixed w-full top-0 left-0 transition-all duration-100 delay-100 ease-linear">
+        <nav class="container mx-auto flex text-white justify-between">
+            <div class="text-orange-600 text-2xl font-bold tracking-wider">Logo</div>
+            <ul class="flex space-x-8">
+                <li class="cursor-pointer hover:underline">Home</li>
+                <li class="cursor-pointer hover:underline">Contact</li>
+                <li class="cursor-pointer hover:underline">Profile</li>
+                <li class="cursor-pointer hover:underline">About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="bg-[url('https://cdn.pixabay.com/photo/2023/04/03/17/19/bird-7897321_960_720.jpg')] h-[500px] w-full bg-no-repeat bg-cover">
+        <!-- picture section  -->
+    </header>
+
+    <main class="p-4">
+        <div class="w-full flex p-8 border-2 my-2">
+            <section class="w-2/4">
+                <img class="rounded" src="https://cdn.pixabay.com/photo/2023/03/27/15/25/hummingbird-7881046_960_720.jpg" alt="">
+            </section>
+            <section class="w-2/4 px-4">
+                <h1 class="text-2xl py-2 font-bold">Humming Bird</h1>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus iste autem sed laborum magni accusantium veniam est labore. Aut, eius libero. Odit quo saepe sapiente eum illo pariatur quia ut ducimus alias eaque ratione numquam, asperiores, assumenda est. Rerum doloribus quaerat delectus fuga minus repudiandae esse qui quibusdam a numquam, quis eum hic quos tempore!</p>
+            </section>
+        </div>
+
+        <div class="w-full flex p-8 border-2 my-2">
+            <section class="w-2/4">
+                <img class="rounded" src="https://cdn.pixabay.com/photo/2023/03/15/06/11/dragonfly-7853779_960_720.jpg" alt="">
+            </section>
+            <section class="w-2/4 px-4">
+                <h1 class="text-2xl py-2 font-bold">Dragon Fly</h1>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus iste autem sed laborum magni accusantium veniam est labore. Aut, eius libero. Odit quo saepe sapiente eum illo pariatur quia ut ducimus alias eaque ratione numquam, asperiores, assumenda est. Rerum doloribus quaerat delectus fuga minus repudiandae esse qui quibusdam a numquam, quis eum hic quos tempore!</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Javascript  -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
